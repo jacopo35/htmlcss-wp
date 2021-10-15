@@ -52,10 +52,31 @@ button {
 }
 
 .jumbotron {
-  height: 350px;
-  margin-bottom: 30px;
-  background-color: #e1d67a;
+  height: 685px;
+  margin-bottom: 80px;
+  background-color:white;
+  background-image: url(../img/banner.jpg); 
+  border-radius: 15px;
 }
+
+.h1-left {
+  color: grey;
+  position: absolute;
+  bottom: 0%;
+  left: 80px;
+}
+
+.text-left {
+  color: grey;
+  position: absolute;
+   margin: 350px;
+  left: 80px;
+}
+
+
+
+
+
 
 .main-content {
   height: 500px;
