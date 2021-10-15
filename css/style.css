@@ -17,7 +17,7 @@ html {
 }
 
 body {
-  
+  max-width: 1200px;
 }
 
 .clearfix::after {
@@ -65,9 +65,8 @@ button {
 
 .h1-left {
   color: grey;
-  position: absolute;
-  bottom: 0%;
-  left: 80px;
+  margin: 50px;
+  margin-left: 25px;
 }
 
 .text-left {
@@ -126,5 +125,11 @@ button {
 
 footer {
   height: 50px;
-  background-color: #8801fe;
+  background-color: white;
+}
+
+
+.redheart {
+  color:#ff0000; 
+  font-size:14px;
 }
