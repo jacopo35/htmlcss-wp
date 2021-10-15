@@ -13,7 +13,11 @@
 
 html {
   font-size: 100%;
-  font-style: Montserrat;
+  font-family: 'Monserrat', sans-serif;
+}
+
+body {
+  
 }
 
 .clearfix::after {
@@ -52,7 +56,7 @@ button {
 }
 
 .jumbotron {
-  height: 685px;
+  height: 550px;
   margin-bottom: 80px;
   background-color:white;
   background-image: url(../img/banner.jpg); 
@@ -69,25 +73,20 @@ button {
 .text-left {
   color: grey;
   position: absolute;
-   margin: 350px;
-  left: 80px;
+  margin: 350px;
+  margin-left: 25px;
 }
-
-
-
-
-
 
 .main-content {
-  height: 500px;
+  height: 520px;
   padding: 5px;
   margin-bottom: 30px;
-  background-color: #0086ff;
+  background-color: white;
 }
 .main-content .main-content-header {
-  height: 30px;
+  height: 70px;
   margin-bottom: 30px;
-  background-color: #abcfe7;
+  background-color: white;
 }
 
 .main-content .main-content-main {
@@ -100,18 +99,32 @@ button {
 }
 .col-left,
 .col-right {
-  height: 400px;
-  width: 25%;
-  background-color: #abcfe7;
+  height: 350px;
+  width: 20%;
+  background-color: white;
 }
+
+.img-1 {
+    height: 200px;
+}
+
+.banner-2 {
+  height: 270px;
+}
+
+.img-3 {
+  height: 150px;
+}
+
+
 .col-center {
-  height: 400px;
+  height: 350px;
   width: calc(50% - 60px);
   margin: 0 30px;
-  background-color: #abcfe7;
+  background-color: white;
 }
 
 footer {
-  height: 100px;
+  height: 50px;
   background-color: #8801fe;
 }
